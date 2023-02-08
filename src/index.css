@@ -28,6 +28,11 @@ button.primary {
   color: white;
 }
 
+button.delete {
+  background-color: red;
+  color: white;
+}
+
 .app {
   margin: 0 auto;
   max-width: 1200px;
@@ -69,6 +74,36 @@ main {
 
 .new-plant-form button {
   width: 150px;
+}
+
+.price {
+  margin-top: 13px;
+  margin-right: 5px;
+  float: left;
+}
+
+.new-price-form {
+  float: left;
+}
+
+.new-price-form input{
+  width: 80px;
+  font-size: 1.2em;
+  color: black;
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  float: top;
+}
+
+.new-price-form button {
+  float: top;
+  padding: 0.25rem 1rem;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
 }
 
 .searchbar {
