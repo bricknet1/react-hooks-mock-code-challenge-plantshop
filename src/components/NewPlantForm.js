@@ -27,9 +27,9 @@ function NewPlantForm({setPlants, plants}) {
     <div className="new-plant-form">
       <h2>New Plant</h2>
       <form onSubmit={handleSubmit} >
-        <input type="text" name="name" placeholder="Plant name" onChange={handleChange} />
-        <input type="text" name="image" placeholder="Image URL" onChange={handleChange} />
-        <input type="number" name="price" step="0.01" placeholder="Price" onChange={handleChange} />
+        <input type="text" name="name" placeholder="Plant name" onChange={handleChange} value={newPlant.name} />
+        <input type="text" name="image" placeholder="Image URL" onChange={handleChange} value={newPlant.image} />
+        <input type="number" name="price" step="0.01" placeholder="Price" onChange={handleChange} value={newPlant.price} />
         <button type="submit">Add Plant</button>
       </form>
     </div>
